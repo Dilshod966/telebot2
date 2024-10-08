@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "telebot": "^1.4.1",
+    "xlsx": "^0.18.5"
+  }
+}
