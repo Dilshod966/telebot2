@@ -5,12 +5,12 @@ const bot = new TeleBot(TELEGRAM_BOT_TOKEN);
 const express = require('express');
 
 const app = express();
-const port = 8080;
+const port = 3000;
 
 
-app.listen(process.env.PORT || port, () => console.log(`Listening on port ${port}`))
-
-
+app.listen(port, () => {
+  console.log(`App listening at http://localhost:${port}`);
+});
 
 let file2 = 'natija1';
 let XLSX = require('xlsx');
